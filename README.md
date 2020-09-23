@@ -1,0 +1,355 @@
+﻿<div align="center">
+
+## XP style \( Design Area & Project \)
+
+<img src="PIC2003731048136477.jpg">
+</div>
+
+### Description
+
+Of course you saw a lot of new Program Created with our Familiar VB6 but it have the XP Style for ex. (CuteFtp , ApiViewer 2003,..........etc), And u must have wondered how is that can be created and dreamt of creating similar one with XP Style, this tutorial will show you have to convert your tedious boring Project that have the old look into another one with XP style, Not only your project look but also the design Area will all be converted to XP look, included in that the properties window, Scroll for code, all of it.
+ 
+### More Info
+ 
+
+
+<span>             |<span>
+---                |---
+**Submitted On**   |2003-07-03 10:52:02
+**By**             |[sherif  rofael](https://github.com/Planet-Source-Code/PSCIndex/blob/master/ByAuthor/sherif-rofael.md)
+**Level**          |Intermediate
+**User Rating**    |3.5 (21 globes from 6 users)
+**Compatibility**  |VB 5\.0, VB 6\.0
+**Category**       |[Windows System Services](https://github.com/Planet-Source-Code/PSCIndex/blob/master/ByCategory/windows-system-services__1-35.md)
+**World**          |[Visual Basic](https://github.com/Planet-Source-Code/PSCIndex/blob/master/ByWorld/visual-basic.md)
+**Archive File**   |[XP\_style\_\(160920732003\.zip](https://github.com/Planet-Source-Code/sherif-rofael-xp-style-design-area-project__1-46617/archive/master.zip)
+
+
+
+
+
+### Source Code
+
+```
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="File-List" href="index1_files/filelist.xml">
+<title>Hi</title>
+<!--[if !mso]>
+<style>
+v\:*     { behavior: url(#default#VML) }
+o\:*     { behavior: url(#default#VML) }
+.shape    { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+</head>
+<p><b><font face="Tahoma" color="#6600FF">Hi ,</font></b></p>
+<p><b><font face="Tahoma" color="#6600FF">Of course you saw a lot of new Program
+Created with our Familiar VB6 but it have the XP Style for ex. (CuteFtp ,
+ApiViewer 2003,..........etc),</font></b></p>
+<p><b><font face="Tahoma" color="#6600FF">And u must have wondered how is that
+can be created and dreamt of creating similar one with XP Style,</font></b></p>
+<p><!--[if gte vml 1]><v:shapetype id="_x0000_t136"
+ coordsize="21600,21600" o:spt="136" adj="10800" path="m@7,l@8,m@5,21600l@6,21600e">
+ <v:formulas>
+ <v:f eqn="sum #0 0 10800"/>
+ <v:f eqn="prod #0 2 1"/>
+ <v:f eqn="sum 21600 0 @1"/>
+ <v:f eqn="sum 0 0 @2"/>
+ <v:f eqn="sum 21600 0 @3"/>
+ <v:f eqn="if @0 @3 0"/>
+ <v:f eqn="if @0 21600 @1"/>
+ <v:f eqn="if @0 0 @2"/>
+ <v:f eqn="if @0 @4 21600"/>
+ <v:f eqn="mid @5 @6"/>
+ <v:f eqn="mid @8 @5"/>
+ <v:f eqn="mid @7 @8"/>
+ <v:f eqn="mid @6 @7"/>
+ <v:f eqn="sum @6 0 @5"/>
+ </v:formulas>
+ <v:path textpathok="t" o:connecttype="custom" o:connectlocs="@9,0;@10,10800;@11,21600;@12,10800"
+ o:connectangles="270,180,90,0"/>
+ <v:textpath on="t" fitshape="t"/>
+ <v:handles>
+ <v:h position="#0,bottomRight" xrange="6629,14971"/>
+ </v:handles>
+ <o:lock v:ext="edit" text="t" shapetype="t"/>
+</v:shapetype><v:shape id="_x0000_s1030" type="#_x0000_t136" style='width:487.5pt;
+ height:33.75pt' fillcolor="#9400ed" strokecolor="#eaeaea" strokeweight="1pt">
+ <v:fill color2="blue" angle="-90" colors="0 #a603ab;13763f #0819fb;22938f #1a8d48;34079f yellow;47841f #ee3f17;57672f #e81766;1 #a603ab"
+ method="none" type="gradient"/>
+ <v:shadow on="t" type="perspective" color="silver" opacity="52429f" origin="-.5,.5"
+ matrix=",46340f,,.5,,-4768371582e-16"/>
+ <v:textpath style='font-family:"Arial Black";font-size:24pt;v-text-kern:t'
+ trim="t" fitpath="t" string="Please Read the Following Very Well "/>
+</v:shape><![endif]--><![if !vml]>< border=0 width=663 height=51
+src="index1_files/image001.gif" alt="Please Read the Following Very Well "
+v:shapes="_x0000_s1030"><![endif]></p>
+<p><u><b><font face="Tahoma" color="#0033CC" size="5">XP Style In Design Area:</font></b></u></p>
+<p><b><font face="Tahoma" color="#6600FF">Here is the Way in 2 steps ( piece of
+cake, isn't it?)</font></b></p>
+<ol>
+ <li><b><font face="Tahoma" color="#6600FF">open the&nbsp; notepad text editor
+ and paste the code below in it and save the file&nbsp; as&nbsp;
+ &quot;vb6.exe.manifest&quot;.<br>
+ <br>
+ <br>
+&nbsp;</font></b><p><!--[if gte vml 1]><v:shapetype id="_x0000_t202"
+ coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+ <v:stroke joinstyle="miter"/>
+ <v:path gradientshapeok="t" o:connecttype="rect"/>
+</v:shapetype><v:shape id="_x0000_s1029" type="#_x0000_t202" style='position:absolute;
+ margin-left:6.75pt;margin-top:-54pt;width:414pt;height:327pt;z-index:1;
+ mso-position-vertical:absolute' fillcolor="silver" stroked="f">
+ <v:textbox>
+<p class="MsoNormal">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;<br>
+&lt;assembly xmlns=&quot;urn:schemas-microsoft-com:asm.v1&quot; manifestVersion=&quot;1.0&quot;&gt;<br>
+&lt;assemblyIdentity<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp; </span>version=&quot;1.0.0.0&quot;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp; </span>processorArchitecture=&quot;X86&quot;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp; </span>name=&quot;Sherif Rofael VB Controls To XP Style&quot;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp; </span>type=&quot;win32&quot;<br>
+/&gt;<br>
+&lt;description&gt;sherif&lt;/description&gt;<br>
+&lt;dependency&gt;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp; </span>&lt;dependentAssembly&gt;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;assemblyIdentity<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>type=&quot;win32&quot;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>name=&quot;Microsoft.Windows.Common-Controls&quot;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>version=&quot;6.0.0.0&quot;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>processorArchitecture=&quot;X86&quot;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>publicKeyToken=&quot;6595b64144ccf1df&quot;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>language=&quot;*&quot;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>/&gt;<span style="mso-spacerun:yes"><br>
+&nbsp;&nbsp;&nbsp; </span>&lt;/dependentAssembly&gt;<br>
+&lt;/dependency&gt;<br>
+&lt;/assembly&gt;<o:p></o:p></p>
+ </v:textbox>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:59px;top:328px;width:556px;height:440px'><
+width=556 height=440 src="index1_files/image002.gif"
+alt="Text Box: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&#13;&#10;&lt;assembly xmlns=&quot;urn:schemas-microsoft-com:asm.v1&quot; manifestVersion=&quot;1.0&quot;&gt;&#13;&#10;&lt;assemblyIdentity&#13;&#10;&nbsp;&nbsp;&nbsp; version=&quot;1.0.0.0&quot;&#13;&#10;&nbsp;&nbsp;&nbsp; processorArchitecture=&quot;X86&quot;&#13;&#10;&nbsp;&nbsp;&nbsp; name=&quot;Sherif Rofael VB Controls To XP Style&quot;&#13;&#10;&nbsp;&nbsp;&nbsp; type=&quot;win32&quot;&#13;&#10;/&gt;&#13;&#10;&lt;description&gt;sherif&lt;/description&gt;&#13;&#10;&lt;dependency&gt;&#13;&#10;&nbsp;&nbsp;&nbsp; &lt;dependentAssembly&gt;&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;assemblyIdentity&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type=&quot;win32&quot;&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; name=&quot;Microsoft.Windows.Common-Controls&quot;&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; version=&quot;6.0.0.0&quot;&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; processorArchitecture=&quot;X86&quot;&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; publicKeyToken=&quot;6595b64144ccf1df&quot;&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;language=&quot;*&quot;&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&gt;&#13;&#10;&nbsp;&nbsp;&nbsp; &lt;/dependentAssembly&gt;&#13;&#10;&lt;/dependency&gt;&#13;&#10;&lt;/assembly&gt;&#13;&#10;"
+v:shapes="_x0000_s1029"></span><![endif]></p>
+ <![if !mso]><![endif]>
+ <p>&nbsp;</p>
+ <p><b><font face="Tahoma" color="#6600FF"><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <textarea rows="10" name="S1" cols="57" style="font-size: 1em"><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<assemblyIdentity
+  version="1.0.0.0"
+  processorArchitecture="X86"
+  name="Sherif Rofael VB Controls To XP Style"
+  type="win32"
+/>
+<description>sherif</description>
+<dependency>
+  <dependentAssembly>
+    <assemblyIdentity
+      type="win32"
+      name="Microsoft.Windows.Common-Controls"
+      version="6.0.0.0"
+      processorArchitecture="X86"
+      publicKeyToken="6595b64144ccf1df"
+      language="*"
+    />
+  </dependentAssembly>
+</dependency>
+</assembly>
+</textarea><br>
+ </font><i><font face="Tahoma" color="#800000">N.B.: You can download the file
+ from the attached files.</font></i><font face="Tahoma" color="#6600FF"><br>
+&nbsp;</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">place this file @ the VB directory&nbsp;&nbsp;&nbsp;
+ By Default&nbsp;&nbsp;&nbsp;&nbsp; &quot;\....\Microsoft Visual Studio\VB98&quot;</font></b></li>
+</ol>
+<p><b><font face="Tahoma" color="#6600FF">&nbsp;&nbsp;&nbsp; Here you are done,
+Now Every Time you will open the VB Design Area to write a code<br>
+&nbsp;&nbsp;&nbsp; the Controls will have the Xp Style, That's Applied to all
+the controls.</font></b></p>
+<ul>
+ <li><b><font face="Tahoma" color="#6600FF">Text Boxes.</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">Check Boxes</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">List Box</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">List View</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">Tree View</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">Combo Box</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">Progress Bar</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">Scroll Bar (Vertical &amp; Horizontal)
+ implicitly.</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">Slider.</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">............</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">..............</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">...............</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">...............</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">All What You Think Of.</font></b></li>
+</ul>
+<p><b><font face="Tahoma" color="#6600FF">Take a look @ the Screen Shot.</font></b></p>
+<p><b><font face="Tahoma" color="#6600FF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></b></p>
+<p><b><u><font size="5"><font face="Tahoma" color="#0033CC">Compiling Your code:</font><font face="Tahoma" color="#6600FF"><br>
+</font></font><font face="Tahoma" color="#6600FF"><br>
+</font></u><font face="Tahoma" color="#6600FF">&nbsp;&nbsp;&nbsp; Now, Once you
+compiled the code The Xp style will Vanish, Don't Worry We will get <br>
+&nbsp;&nbsp;&nbsp; it Back!!! How?<br>
+<br>
+&nbsp;&nbsp;&nbsp; If you want to get the XP Style for the compiled code u will
+have to do 2 steps:</font></b></p>
+<ul>
+ <li><b><font face="Tahoma" color="#6600FF">Add this piece of code into Your
+ form.<br>
+&nbsp;</font></b><p><!--[if gte vml 1]><v:shape id="_x0000_s1027"
+ type="#_x0000_t202" style='position:absolute;margin-left:23.25pt;margin-top:-10.5pt;
+ width:414pt;height:90pt;z-index:1' fillcolor="silver" stroked="f">
+ <v:textbox>
+<p class="MsoNormal"><font color="#0000FF">Private Declare Function</font>
+InitCommonControls <font color="#0000FF">Lib</font> &quot;Comctl32.dll&quot; ()
+<font color="#0000FF">As Long</font><br>
+<br>
+<font color="#0000FF">Private Sub</font> Form_Initialize()<span style="mso-spacerun: yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><font color="#0000FF">Dim</font> X <font color="#0000FF">As Long</font><span style="mso-spacerun: yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>X = InitCommonControls<br>
+<font color="#0000FF">End Sub</font></p>
+ </v:textbox>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:31px;top:-14px;width:556px;height:124px'><
+width=556 height=124 src="index1_files/image003.gif"
+alt="Text Box: Private Declare Function InitCommonControls Lib &quot;Comctl32.dll&quot; () As Long&#13;&#10;&#13;&#10;Private Sub Form_Initialize()&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dim X As Long&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X = InitCommonControls&#13;&#10;End Sub&#13;&#10;"
+v:shapes="_x0000_s1027"></span><![endif]></p>
+ <![if !mso]><![endif]>
+ <p>&nbsp;</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><b><font face="Tahoma" color="#6600FF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+</b></p>
+<p><b><font face="Tahoma" color="#6600FF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+In General, If u have more than One Form You Should Add the Following code<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into a Module to be
+a public code for all forms<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></b><!--[if gte vml 1]><v:shape id="_x0000_s1028"
+ type="#_x0000_t202" style='position:absolute;margin-left:21.75pt;margin-top:6.75pt;
+ width:414pt;height:136.5pt;z-index:1' fillcolor="silver" stroked="f">
+ <v:textbox>
+<p class="MsoNormal"><font color="#008000">&#39;Module</font><br>
+<font color="#0000FF">Public Declare Function</font> InitCommonControls
+<font color="#0000FF">Lib</font> &quot;Comctl32.dll&quot; () <font color="#0000FF">As Long</font><br>
+&nbsp;</p>
+<p class="MsoNormal" dir="ltr"><font color="#008000">&#39;Add This To Each Form
+</font><br>
+<font color="#0000FF">Private Sub</font> Form_Initialize()<span style="mso-spacerun: yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Dim X <font color="#0000FF">As Long</font><span style="mso-spacerun: yes"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>X = InitCommonControls<br>
+<font color="#0000FF">End Sub</font></p>
+ </v:textbox>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:29px;top:9px;width:556px;height:186px'>< width=556
+height=186 src="index1_files/image004.gif"
+alt="Text Box: 'Module&#13;&#10;Public Declare Function InitCommonControls Lib &quot;Comctl32.dll&quot; () As Long&#13;&#10;&nbsp;&#13;&#10;'Add This To Each Form &#13;&#10;Private Sub Form_Initialize()&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dim X As Long&#13;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X = InitCommonControls&#13;&#10;End Sub&#13;&#10;"
+v:shapes="_x0000_s1028"></span><![endif]></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+ <li><font face="Tahoma" color="#6600FF"><b>Place the </b><i>Manifest File</i><b>
+ in the same folder of the compiled File and name it with the same name as the
+ Compiled project name. (For ex. if the compiled file name was &quot;</b></font><b><font face="Tahoma" color="#008000">project1.exe</font><font face="Tahoma" color="#6600FF">&quot;
+ then the manifest file name should be &quot;</font><font face="Tahoma" color="#008000">project1.exe.manifest</font><font face="Tahoma" color="#6600FF">&quot;)</font></b></li>
+</ul>
+<p><b><u><font size="5" color="#0033CC" face="Tahoma">Very Important Note:<br>
+</font><font face="Tahoma" color="#6600FF"><br>
+</font></u><font face="Tahoma" color="#6600FF">A very important note that you
+must take care of is that you should use <br>
+<br>
+</font><font face="Tahoma" color="#008000">Microsoft windows Common Control 5.0
+(SP2)&nbsp;&nbsp;&nbsp; Right</font><font face="Tahoma" color="#6600FF"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+and Not</font><font face="Tahoma" color="#008000"><br>
+</font><font face="Tahoma" color="#FF0000">Microsoft windows Common Control 6.0
+(SP4)&nbsp;&nbsp;&nbsp; Wrong<br>
+<br>
+</font><font face="Tahoma" color="#6600FF">For Progress Bars, List View, Tree
+View, Status Bar, ...............etc</font></b></p>
+<p>&nbsp;</p>
+<p><u><b><font face="Tahoma" color="#0033CC" size="5">Some common Problems:</font></b></u></p>
+<p><b><font face="Tahoma" color="#6600FF">&nbsp;&nbsp;&nbsp; To be honest, I
+should tell you what defect u may face using the manifest file.<br>
+&nbsp;&nbsp;&nbsp; </font></b></p>
+<p><b><font face="Tahoma" color="#6600FF">&nbsp;&nbsp;&nbsp; Some Reported
+Errors:<br>
+&nbsp;&nbsp;&nbsp; ====================</font></b></p>
+<ul>
+ <li><b><font face="Tahoma" color="#6600FF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ In design Area It may happen That you can't see the color palette.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is a very small bug as u know so
+ that u may set the color <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; through the code itself while the
+ system color is working properly.</font></b></li>
+ <li><b><font face="Tahoma" color="#6600FF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Some of the control may appear as a black Rectangle but me myself didn't <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get that Problem and don't know
+ anybody who have it but i read about <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; some complaint about it.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Anyway, A Fast Solution For that is
+ placing the annoying control in a Picture Box.<br>
+ <br>
+&nbsp;</font></b></li>
+</ul>
+<p><u><font size="6" color="#000080">As a Conclusion <i>(In Brief)</i>:</font></u></p>
+<ul>
+ <li><font color="#000080">In General: manifest file name {project
+ name}.{exe}.{manifest}</font></li>
+</ul>
+<table border="1" cellspacing="1" width="100%" bgcolor="#6699FF">
+ <tr>
+  <td width="25%" align="center">&nbsp;</td>
+  <td width="25%" align="center"><b><font size="4">EXE Name</font></b></td>
+  <td width="25%" align="center"><b><font size="4">Manifest Filename</font></b></td>
+ </tr>
+ <tr>
+  <td width="25%" align="center"><b><font size="4">Design area</font></b></td>
+  <td width="25%" align="center">VB6</td>
+  <td width="25%" align="center"><u>VB6.exe.manifest</u> (compulsory name)</td>
+ </tr>
+ <tr>
+  <td width="25%" align="center"><b><font size="4">Any Compiled Project</font></b></td>
+  <td width="25%" align="center">Project1(any name)</td>
+  <td width="25%" align="center"><u>project1.exe.manifest</u></td>
+ </tr>
+</table>
+<ul>
+ <li><font face="Tahoma" color="#0000CC"><b>Use</b><font size="2"> Microsoft
+ windows Common Control 5.0 (SP2)</font></font></li>
+</ul>
+<p>&nbsp;</p>
+<p><b><i><font color="#0000CC"><font face="Tahoma">If u want to color any VB
+source code and save it as An Html File as shown above Visit</font><font face="Book Antiqua"><br>
+<br>
+</font><font face="Times New Roman">http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=46458&amp;lngWId=1</font></font></i></b></p>
+```
+
